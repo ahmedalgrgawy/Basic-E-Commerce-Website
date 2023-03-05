@@ -1,0 +1,174 @@
+:root {
+    --main-color: #f81a5c;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-btn {
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.main-btn:not(.btn0):hover {
+    background-color: #dc0747;
+}
+
+.brand-logo {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+
+.brand-logo:hover {
+    color: black;
+}
+
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--main-color);
+}
+
+.search {
+    text-align: center;
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid #f81a5c;
+    margin-right: -35px;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+}
+
+.main {
+    background: url(../images/food.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.main .row {
+    padding-top: 100px;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+}
+
+.feat h6 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.products h1 {
+    font-weight: 700;
+}
+
+.products h6 {
+    color: var(--main-color);
+}
+
+.products i,
+.shop i {
+    width: 150px;
+    font-size: 7rem;
+}
+
+.card:hover {
+    -webkit-box-shadow: -1px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.about h6,
+.shop h6,
+.contact h6 {
+    color: var(--main-color);
+}
+
+.about h5 {
+    color: var(--main-color);
+}
+
+.apple {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/apple.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.apple h1 {
+    font-family: 'Lobster', cursive;
+}
+
+textarea {
+    resize: none;
+}
+
+.news {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+    height: 45.5px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+    
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news p{
+    margin: 0;
+}
+
+.fab{
+    font-size: 2.5rem;
+    height: 50px;;
+    cursor: pointer;
+    padding: 5px;
+}
